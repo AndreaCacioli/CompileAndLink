@@ -12,3 +12,4 @@ for f in *.o
   done
 ranlib lib${LIBNAME}.a
 cc ${EXECUTABLE}.o -L. -l${LIBNAME} -o ${EXECUTABLE}
+echo Now you are ready to launch the Program!
